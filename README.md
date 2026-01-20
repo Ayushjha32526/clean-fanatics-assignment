@@ -1,3 +1,46 @@
+# Backend Setup (REQUIRED FIRST)
+Step 1: Go to backend folder
+cd booking-backend
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Create .env file
+
+Inside booking-backend/.env
+
+PORT=3000
+MONGO_URI=mongodb://127.0.0.1:27017/booking-system
+
+
+(Replace MONGO_URI if using MongoDB Atlas)
+
+Step 4: Start backend server
+npm run dev
+
+
+Expected output:
+
+Server running on port 3000
+MongoDB connected
+
+# Frontend Setup
+Step 1: Open a NEW terminal
+
+(Do NOT stop backend)
+
+cd booking-frontend
+
+Step 2: Install dependencies
+npm install
+
+Step 3: Start frontend
+npm run dev
+
+
+Expected output:
+
+Local: http://localhost:5173
 # Full Stack Booking Lifecycle System
 
 This project implements a simplified booking lifecycle system for an on-demand home services marketplace.
