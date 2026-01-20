@@ -16,7 +16,7 @@ MONGO_URI=mongodb://127.0.0.1:27017/booking-system
 (Replace MONGO_URI if using MongoDB Atlas)
 
 Step 4: Start backend server
-npm run dev
+npm start
 
 
 Expected output:
